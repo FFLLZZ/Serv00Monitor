@@ -61,6 +61,7 @@
 
 PORT=10308 UUID=XXX bash <(curl -Ls https://raw.githubusercontent.com/FFLLZZ/serv00/main/h2.sh
 
+进入domains目录并执行一键脚本：
 cd domains
 curl -O https://raw.githubusercontent.com/curry-he/Serv00_auto_script/master/Serv00-Renew.sh && chmod +x Serv00-Renew.sh && ./Serv00-Renew.sh
 
