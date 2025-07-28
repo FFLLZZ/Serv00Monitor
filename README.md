@@ -61,6 +61,9 @@
 
 PORT=10308 UUID=XXX bash <(curl -Ls https://raw.githubusercontent.com/FFLLZZ/serv00/main/h2.sh
 
+cd domains
+curl -O https://raw.githubusercontent.com/curry-he/Serv00_auto_script/master/Serv00-Renew.sh && chmod +x Serv00-Renew.sh && ./Serv00-Renew.sh
+
 ## 技术栈
 
 - Cloudflare Workers
