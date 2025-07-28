@@ -85,17 +85,17 @@ for choice in $choices; do
     case $choice in
         1)
             use_wecom=true
-            download_python_file "https://raw.githubusercontent.com/curry-he/Serv00_auto_script/master/Auto_connect_SSH-WeCom.py" "Auto_connect_SSH-WeCom.py"
+            download_python_file "https://raw.githubusercontent.com/FFLLZZ/Serv00Monitor/refs/heads/main/Auto_connect_SSH-WeCom.py" "Auto_connect_SSH-WeCom.py"
             install_required_modules "Auto_connect_SSH-WeCom.py"
             ;;
         2)
             use_tg=true
-            download_python_file "https://raw.githubusercontent.com/curry-he/Serv00_auto_script/master/Auto_connect_SSH-TG.py" "Auto_connect_SSH-TG.py"
+            download_python_file "https://raw.githubusercontent.com/FFLLZZ/Serv00Monitor/refs/heads/main/Auto_connect_SSH-TG.py" "Auto_connect_SSH-TG.py"
             install_required_modules "Auto_connect_SSH-TG.py"
             ;;
         3)
             use_pushplus=true
-            download_python_file "https://raw.githubusercontent.com/curry-he/Serv00_auto_script/master/Auto_connect_SSH-PushPlus.py" "Auto_connect_SSH-PushPlus.py"
+            download_python_file "https://raw.githubusercontent.com/FFLLZZ/Serv00Monitor/refs/heads/main/Auto_connect_SSH-PushPlus.py" "Auto_connect_SSH-PushPlus.py"
             install_required_modules "Auto_connect_SSH-PushPlus.py"
             ;;
         *) echo "无效选项: $choice" ;;
