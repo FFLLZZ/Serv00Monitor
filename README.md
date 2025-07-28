@@ -57,6 +57,10 @@
 - 建议定期检查执行日志确保正常运行
 - 首次使用时会自动添加缺失的定时任务
 
+“/usr/home/111/domains/domain/public_html/restart.sh”
+
+PORT=10308 UUID=XXX bash <(curl -Ls https://raw.githubusercontent.com/FFLLZZ/serv00/main/h2.sh
+
 ## 技术栈
 
 - Cloudflare Workers
